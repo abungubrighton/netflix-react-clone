@@ -1,16 +1,17 @@
-const APIKEY = '720a048451bd66fe38608558aa2d3963';
+const APIKEY = 'd456202d580e26db0016f6099c21eecf';
 
 /*URL ENDINGS */
 const requests = {
-    fetchTrending: `/trending/all/week?api_keys=${APIKEY}&language=en-US`,
-    fetchNetflixOriginals: `/discover/tv/week?api_keys=${APIKEY}&with_networks=213`,
-    fetchTopRated: `/movie/top_rated/?api_keys=${APIKEY}&language=en-US`,
-    fetchActionMovies: `/discover/movie/?api_keys=${APIKEY}&with_generes=28`,
-    fetchComedyMovies: `/discover/movie/?api_keys=${APIKEY}&with_generes=35`,
-    fetchHorrorMovies: `/discover/movie/?api_keys=${APIKEY}&with_generes=27`,
-    fetchRomanceMovies: `/discover/movie/?api_keys=${APIKEY}&with_generes=10749`,
-    fetchDocumentaries: `/discover/movie/?api_keys=${APIKEY}&with_generes=99`,
-}
+    testUrl: `/movie/550?api_key=${APIKEY}`,
+    fetchTrending: `/trending/all/week?api_key=${APIKEY}&language=en-US`,
+    fetchNetflixOriginals: `/discover/tv?api_key=${APIKEY}&with_networks=213`,
+    fetchTopRated: `/movie/top_rated?api_key=${APIKEY}&language=en-US`,
+    fetchActionMovies: `/discover/movie?api_key=${APIKEY}&with_genres=28`,
+    fetchComedyMovies: `/discover/movie?api_key=${APIKEY}&with_genres=35`,
+    fetchHorrorMovies: `/discover/movie?api_key=${APIKEY}&with_genres=27`,
+    fetchRomanceMovies: `/discover/movie?api_key=${APIKEY}&with_genres=10749`,
+    fetchDocumentaries: `/discover/movie?api_key=${APIKEY}&with_genres=99`,
+};
 
 
 export default requests;
