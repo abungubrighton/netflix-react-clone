@@ -30,7 +30,7 @@ const Row = ({ title, fetchUrl }) => {
         {/* several posters images */}
         {
           movies.map((movie) => (
-            <img className='row__poster' src={`${baseImageUrl}${movie.poster_path}`} alt={movie.name} />
+            <img key={movie.id} className='row__poster' src={`${baseImageUrl}${movie.poster_path}`} alt={movie.name} />
           ))
         }
 
