@@ -16,6 +16,11 @@ const Banner = () => {
     };
     fetchData();
     }, [])
+
+    // tranccate
+    function truncate(str,n){
+        return str?.length > n ? str.substr(0,n-1) + "...":str;
+    }
   return (
     <header 
     className='banner'
@@ -43,7 +48,7 @@ const Banner = () => {
             </div>
             {/* description */}
             <div className="banner__description">
-                {movie?.overview}
+                {truncate(movie?.overview,150)}
             </div>
         </div>
     </header>
