@@ -51,6 +51,7 @@ const Banner = () => {
                 {truncate(movie?.overview,150)}
             </div>
         </div>
+        <div className="banner--fadeBottom"></div>
     </header>
   )
 }
