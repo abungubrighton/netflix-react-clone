@@ -1,3 +1,5 @@
+# LINK: https://netflix-clone-cedff.web.app
+![Screenshot from 2023-10-28 15-48-55](https://github.com/abungubrighton/netflix-react-clone/assets/111748970/29287339-a209-4014-80ee-553bce4feb8c)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
